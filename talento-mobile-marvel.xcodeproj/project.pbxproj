@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49AF86AA28F46D7700CCC6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86A928F46D7700CCC6AA /* AppDelegate.swift */; };
+		49AF86AC28F46D7700CCC6AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */; };
+		49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AD28F46D7700CCC6AA /* ViewController.swift */; };
+		49AF86B128F46D7700CCC6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86AF28F46D7700CCC6AA /* Main.storyboard */; };
+		49AF86B328F46D7900CCC6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86B228F46D7900CCC6AA /* Assets.xcassets */; };
+		49AF86B628F46D7900CCC6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86B428F46D7900CCC6AA /* LaunchScreen.storyboard */; };
+		49AF86C128F46D7900CCC6AA /* talento_mobile_marvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86C028F46D7900CCC6AA /* talento_mobile_marvelTests.swift */; };
+		49AF86CB28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86CA28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift */; };
+		49AF86CD28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86CC28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49AF86BD28F46D7900CCC6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AF869E28F46D7600CCC6AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AF86A528F46D7600CCC6AA;
+			remoteInfo = "talento-mobile-marvel";
+		};
+		49AF86C728F46D7900CCC6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AF869E28F46D7600CCC6AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AF86A528F46D7600CCC6AA;
+			remoteInfo = "talento-mobile-marvel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talento-mobile-marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AF86A928F46D7700CCC6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49AF86AD28F46D7700CCC6AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49AF86B028F46D7700CCC6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49AF86B228F46D7900CCC6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AF86B528F46D7900CCC6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49AF86B728F46D7900CCC6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AF86BC28F46D7900CCC6AA /* talento-mobile-marvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talento-mobile-marvelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AF86C028F46D7900CCC6AA /* talento_mobile_marvelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talento_mobile_marvelTests.swift; sourceTree = "<group>"; };
+		49AF86C628F46D7900CCC6AA /* talento-mobile-marvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talento-mobile-marvelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AF86CA28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talento_mobile_marvelUITests.swift; sourceTree = "<group>"; };
+		49AF86CC28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talento_mobile_marvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49AF86A328F46D7600CCC6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86B928F46D7900CCC6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86C328F46D7900CCC6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49AF869D28F46D7600CCC6AA = {
+			isa = PBXGroup;
+			children = (
+				49AF86A828F46D7700CCC6AA /* talento-mobile-marvel */,
+				49AF86BF28F46D7900CCC6AA /* talento-mobile-marvelTests */,
+				49AF86C928F46D7900CCC6AA /* talento-mobile-marvelUITests */,
+				49AF86A728F46D7700CCC6AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49AF86A728F46D7700CCC6AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */,
+				49AF86BC28F46D7900CCC6AA /* talento-mobile-marvelTests.xctest */,
+				49AF86C628F46D7900CCC6AA /* talento-mobile-marvelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AF86A828F46D7700CCC6AA /* talento-mobile-marvel */ = {
+			isa = PBXGroup;
+			children = (
+				49AF86A928F46D7700CCC6AA /* AppDelegate.swift */,
+				49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */,
+				49AF86AD28F46D7700CCC6AA /* ViewController.swift */,
+				49AF86AF28F46D7700CCC6AA /* Main.storyboard */,
+				49AF86B228F46D7900CCC6AA /* Assets.xcassets */,
+				49AF86B428F46D7900CCC6AA /* LaunchScreen.storyboard */,
+				49AF86B728F46D7900CCC6AA /* Info.plist */,
+			);
+			path = "talento-mobile-marvel";
+			sourceTree = "<group>";
+		};
+		49AF86BF28F46D7900CCC6AA /* talento-mobile-marvelTests */ = {
+			isa = PBXGroup;
+			children = (
+				49AF86C028F46D7900CCC6AA /* talento_mobile_marvelTests.swift */,
+			);
+			path = "talento-mobile-marvelTests";
+			sourceTree = "<group>";
+		};
+		49AF86C928F46D7900CCC6AA /* talento-mobile-marvelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49AF86CA28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift */,
+				49AF86CC28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift */,
+			);
+			path = "talento-mobile-marvelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49AF86A528F46D7600CCC6AA /* talento-mobile-marvel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AF86D028F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvel" */;
+			buildPhases = (
+				49AF86A228F46D7600CCC6AA /* Sources */,
+				49AF86A328F46D7600CCC6AA /* Frameworks */,
+				49AF86A428F46D7600CCC6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "talento-mobile-marvel";
+			productName = "talento-mobile-marvel";
+			productReference = 49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49AF86BB28F46D7900CCC6AA /* talento-mobile-marvelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AF86D328F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelTests" */;
+			buildPhases = (
+				49AF86B828F46D7900CCC6AA /* Sources */,
+				49AF86B928F46D7900CCC6AA /* Frameworks */,
+				49AF86BA28F46D7900CCC6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AF86BE28F46D7900CCC6AA /* PBXTargetDependency */,
+			);
+			name = "talento-mobile-marvelTests";
+			productName = "talento-mobile-marvelTests";
+			productReference = 49AF86BC28F46D7900CCC6AA /* talento-mobile-marvelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49AF86C528F46D7900CCC6AA /* talento-mobile-marvelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AF86D628F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelUITests" */;
+			buildPhases = (
+				49AF86C228F46D7900CCC6AA /* Sources */,
+				49AF86C328F46D7900CCC6AA /* Frameworks */,
+				49AF86C428F46D7900CCC6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AF86C828F46D7900CCC6AA /* PBXTargetDependency */,
+			);
+			name = "talento-mobile-marvelUITests";
+			productName = "talento-mobile-marvelUITests";
+			productReference = 49AF86C628F46D7900CCC6AA /* talento-mobile-marvelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AF869E28F46D7600CCC6AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					49AF86A528F46D7600CCC6AA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					49AF86BB28F46D7900CCC6AA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 49AF86A528F46D7600CCC6AA;
+					};
+					49AF86C528F46D7900CCC6AA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 49AF86A528F46D7600CCC6AA;
+					};
+				};
+			};
+			buildConfigurationList = 49AF86A128F46D7600CCC6AA /* Build configuration list for PBXProject "talento-mobile-marvel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49AF869D28F46D7600CCC6AA;
+			productRefGroup = 49AF86A728F46D7700CCC6AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AF86A528F46D7600CCC6AA /* talento-mobile-marvel */,
+				49AF86BB28F46D7900CCC6AA /* talento-mobile-marvelTests */,
+				49AF86C528F46D7900CCC6AA /* talento-mobile-marvelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AF86A428F46D7600CCC6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF86B628F46D7900CCC6AA /* LaunchScreen.storyboard in Resources */,
+				49AF86B328F46D7900CCC6AA /* Assets.xcassets in Resources */,
+				49AF86B128F46D7700CCC6AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86BA28F46D7900CCC6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86C428F46D7900CCC6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49AF86A228F46D7600CCC6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */,
+				49AF86AA28F46D7700CCC6AA /* AppDelegate.swift in Sources */,
+				49AF86AC28F46D7700CCC6AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86B828F46D7900CCC6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF86C128F46D7900CCC6AA /* talento_mobile_marvelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AF86C228F46D7900CCC6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF86CB28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift in Sources */,
+				49AF86CD28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49AF86BE28F46D7900CCC6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AF86A528F46D7600CCC6AA /* talento-mobile-marvel */;
+			targetProxy = 49AF86BD28F46D7900CCC6AA /* PBXContainerItemProxy */;
+		};
+		49AF86C828F46D7900CCC6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AF86A528F46D7600CCC6AA /* talento-mobile-marvel */;
+			targetProxy = 49AF86C728F46D7900CCC6AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49AF86AF28F46D7700CCC6AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AF86B028F46D7700CCC6AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49AF86B428F46D7900CCC6AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AF86B528F46D7900CCC6AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49AF86CE28F46D7900CCC6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49AF86CF28F46D7900CCC6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49AF86D128F46D7900CCC6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "talento-mobile-marvel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49AF86D228F46D7900CCC6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "talento-mobile-marvel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49AF86D428F46D7900CCC6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talento-mobile-marvel.app/talento-mobile-marvel";
+			};
+			name = Debug;
+		};
+		49AF86D528F46D7900CCC6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talento-mobile-marvel.app/talento-mobile-marvel";
+			};
+			name = Release;
+		};
+		49AF86D728F46D7900CCC6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "talento-mobile-marvel";
+			};
+			name = Debug;
+		};
+		49AF86D828F46D7900CCC6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marc-Teixido.talento-mobile-marvelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "talento-mobile-marvel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49AF86A128F46D7600CCC6AA /* Build configuration list for PBXProject "talento-mobile-marvel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AF86CE28F46D7900CCC6AA /* Debug */,
+				49AF86CF28F46D7900CCC6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AF86D028F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AF86D128F46D7900CCC6AA /* Debug */,
+				49AF86D228F46D7900CCC6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AF86D328F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AF86D428F46D7900CCC6AA /* Debug */,
+				49AF86D528F46D7900CCC6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AF86D628F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AF86D728F46D7900CCC6AA /* Debug */,
+				49AF86D828F46D7900CCC6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AF869E28F46D7600CCC6AA /* Project object */;
+}
