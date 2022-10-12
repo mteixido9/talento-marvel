@@ -16,6 +16,25 @@
 		49AF86C128F46D7900CCC6AA /* talento_mobile_marvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86C028F46D7900CCC6AA /* talento_mobile_marvelTests.swift */; };
 		49AF86CB28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86CA28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift */; };
 		49AF86CD28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86CC28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift */; };
+		49B4B46928F5755800EF12F8 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B46828F5755800EF12F8 /* ServiceManager.swift */; };
+		49B4B46B28F5778300EF12F8 /* MarvelApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B46A28F5778300EF12F8 /* MarvelApiManager.swift */; };
+		49B4B46D28F5869500EF12F8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B46C28F5869500EF12F8 /* Character.swift */; };
+		49B4B46F28F5936100EF12F8 /* ComicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B46E28F5936100EF12F8 /* ComicList.swift */; };
+		49B4B47128F5980A00EF12F8 /* ComicSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47028F5980A00EF12F8 /* ComicSummary.swift */; };
+		49B4B47328F59B3E00EF12F8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47228F59B3E00EF12F8 /* Image.swift */; };
+		49B4B47528F5BB5700EF12F8 /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47428F5BB5700EF12F8 /* SeriesList.swift */; };
+		49B4B47728F5BC4D00EF12F8 /* SeriesSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47628F5BC4D00EF12F8 /* SeriesSummary.swift */; };
+		49B4B47928F5BD4200EF12F8 /* StoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47828F5BD4200EF12F8 /* StoryList.swift */; };
+		49B4B47B28F5BDD600EF12F8 /* StorySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47A28F5BDD600EF12F8 /* StorySummary.swift */; };
+		49B4B47D28F5BE3500EF12F8 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47C28F5BE3500EF12F8 /* EventList.swift */; };
+		49B4B47F28F5BEA000EF12F8 /* EventSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4B47E28F5BEA000EF12F8 /* EventSummary.swift */; };
+		49B9E07628F6EA38002C92DC /* MarvelCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07528F6EA38002C92DC /* MarvelCharactersViewModel.swift */; };
+		49B9E07828F70D8C002C92DC /* Md5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07728F70D8C002C92DC /* Md5.swift */; };
+		49B9E07A28F71586002C92DC /* CharacterDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07928F71586002C92DC /* CharacterDataContainer.swift */; };
+		49B9E07C28F71638002C92DC /* CharacterDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07B28F71638002C92DC /* CharacterDataWrapper.swift */; };
+		DA1C91E615D97F6100E3C472 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521C4B80F0EF04999EF42AA2 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework */; };
+		F279CA10F8C2A0C84D9A7936 /* Pods_talento_mobile_marvelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF06855A11710E6FB99B58 /* Pods_talento_mobile_marvelTests.framework */; };
+		F479A7858D19F6113D078189 /* Pods_talento_mobile_marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D657221788098796134ACF /* Pods_talento_mobile_marvel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C55CE5D1DD80D9A369DF02 /* Pods-talento-mobile-marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel.debug.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel.debug.xcconfig"; sourceTree = "<group>"; };
+		36530F833037C8A5EAB3F64A /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		482CE526DA66B22AD7A32014 /* Pods-talento-mobile-marvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvelTests.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvelTests/Pods-talento-mobile-marvelTests.release.xcconfig"; sourceTree = "<group>"; };
 		49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talento-mobile-marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF86A928F46D7700CCC6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,28 @@
 		49AF86C628F46D7900CCC6AA /* talento-mobile-marvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talento-mobile-marvelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF86CA28F46D7900CCC6AA /* talento_mobile_marvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talento_mobile_marvelUITests.swift; sourceTree = "<group>"; };
 		49AF86CC28F46D7900CCC6AA /* talento_mobile_marvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talento_mobile_marvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49B4B46828F5755800EF12F8 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		49B4B46A28F5778300EF12F8 /* MarvelApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelApiManager.swift; sourceTree = "<group>"; };
+		49B4B46C28F5869500EF12F8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		49B4B46E28F5936100EF12F8 /* ComicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicList.swift; sourceTree = "<group>"; };
+		49B4B47028F5980A00EF12F8 /* ComicSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicSummary.swift; sourceTree = "<group>"; };
+		49B4B47228F59B3E00EF12F8 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		49B4B47428F5BB5700EF12F8 /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
+		49B4B47628F5BC4D00EF12F8 /* SeriesSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesSummary.swift; sourceTree = "<group>"; };
+		49B4B47828F5BD4200EF12F8 /* StoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryList.swift; sourceTree = "<group>"; };
+		49B4B47A28F5BDD600EF12F8 /* StorySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySummary.swift; sourceTree = "<group>"; };
+		49B4B47C28F5BE3500EF12F8 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		49B4B47E28F5BEA000EF12F8 /* EventSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSummary.swift; sourceTree = "<group>"; };
+		49B9E07528F6EA38002C92DC /* MarvelCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersViewModel.swift; sourceTree = "<group>"; };
+		49B9E07728F70D8C002C92DC /* Md5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Md5.swift; sourceTree = "<group>"; };
+		49B9E07928F71586002C92DC /* CharacterDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataContainer.swift; sourceTree = "<group>"; };
+		49B9E07B28F71638002C92DC /* CharacterDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataWrapper.swift; sourceTree = "<group>"; };
+		521C4B80F0EF04999EF42AA2 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D657221788098796134ACF /* Pods_talento_mobile_marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talento_mobile_marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB1331A3EADC0EB568390E3 /* Pods-talento-mobile-marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel.release.xcconfig"; sourceTree = "<group>"; };
+		8DFF06855A11710E6FB99B58 /* Pods_talento_mobile_marvelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talento_mobile_marvelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86685E050C42F1DCA6070E /* Pods-talento-mobile-marvelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvelTests.debug.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvelTests/Pods-talento-mobile-marvelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE79C29E5F3C8034C9BC509 /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel-talento-mobile-marvelUITests.debug.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479A7858D19F6113D078189 /* Pods_talento_mobile_marvel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F279CA10F8C2A0C84D9A7936 /* Pods_talento_mobile_marvelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1C91E615D97F6100E3C472 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +130,8 @@
 				49AF86BF28F46D7900CCC6AA /* talento-mobile-marvelTests */,
 				49AF86C928F46D7900CCC6AA /* talento-mobile-marvelUITests */,
 				49AF86A728F46D7700CCC6AA /* Products */,
+				C43C5F8BCFF7B8D9897C0ED3 /* Pods */,
+				E3B200A647C3E31A360DFCEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +148,11 @@
 		49AF86A828F46D7700CCC6AA /* talento-mobile-marvel */ = {
 			isa = PBXGroup;
 			children = (
+				49AF86DB28F4750400CCC6AA /* Models */,
+				49AF86DC28F4750F00CCC6AA /* ViewModels */,
+				49AF86DD28F4752600CCC6AA /* Views */,
+				49AF86DE28F4753700CCC6AA /* Helpers */,
+				49AF86D928F474E400CCC6AA /* Services */,
 				49AF86A928F46D7700CCC6AA /* AppDelegate.swift */,
 				49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */,
 				49AF86AD28F46D7700CCC6AA /* ViewController.swift */,
@@ -127,6 +181,80 @@
 			path = "talento-mobile-marvelUITests";
 			sourceTree = "<group>";
 		};
+		49AF86D928F474E400CCC6AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49B4B46828F5755800EF12F8 /* ServiceManager.swift */,
+				49B4B46A28F5778300EF12F8 /* MarvelApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49AF86DB28F4750400CCC6AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49B4B46C28F5869500EF12F8 /* Character.swift */,
+				49B4B46E28F5936100EF12F8 /* ComicList.swift */,
+				49B4B47028F5980A00EF12F8 /* ComicSummary.swift */,
+				49B4B47228F59B3E00EF12F8 /* Image.swift */,
+				49B4B47428F5BB5700EF12F8 /* SeriesList.swift */,
+				49B4B47628F5BC4D00EF12F8 /* SeriesSummary.swift */,
+				49B4B47828F5BD4200EF12F8 /* StoryList.swift */,
+				49B4B47A28F5BDD600EF12F8 /* StorySummary.swift */,
+				49B4B47C28F5BE3500EF12F8 /* EventList.swift */,
+				49B4B47E28F5BEA000EF12F8 /* EventSummary.swift */,
+				49B9E07928F71586002C92DC /* CharacterDataContainer.swift */,
+				49B9E07B28F71638002C92DC /* CharacterDataWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49AF86DC28F4750F00CCC6AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				49B9E07528F6EA38002C92DC /* MarvelCharactersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		49AF86DD28F4752600CCC6AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49AF86DE28F4753700CCC6AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49B9E07728F70D8C002C92DC /* Md5.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C43C5F8BCFF7B8D9897C0ED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C55CE5D1DD80D9A369DF02 /* Pods-talento-mobile-marvel.debug.xcconfig */,
+				7CB1331A3EADC0EB568390E3 /* Pods-talento-mobile-marvel.release.xcconfig */,
+				AAE79C29E5F3C8034C9BC509 /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.debug.xcconfig */,
+				36530F833037C8A5EAB3F64A /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig */,
+				8F86685E050C42F1DCA6070E /* Pods-talento-mobile-marvelTests.debug.xcconfig */,
+				482CE526DA66B22AD7A32014 /* Pods-talento-mobile-marvelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3B200A647C3E31A360DFCEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D657221788098796134ACF /* Pods_talento_mobile_marvel.framework */,
+				521C4B80F0EF04999EF42AA2 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework */,
+				8DFF06855A11710E6FB99B58 /* Pods_talento_mobile_marvelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AF86D028F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvel" */;
 			buildPhases = (
+				8FC5BBD35814EEA579629834 /* [CP] Check Pods Manifest.lock */,
 				49AF86A228F46D7600CCC6AA /* Sources */,
 				49AF86A328F46D7600CCC6AA /* Frameworks */,
 				49AF86A428F46D7600CCC6AA /* Resources */,
+				C639540A795216275D10EA55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AF86D328F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelTests" */;
 			buildPhases = (
+				5F132F1D732ADAF3309C9308 /* [CP] Check Pods Manifest.lock */,
 				49AF86B828F46D7900CCC6AA /* Sources */,
 				49AF86B928F46D7900CCC6AA /* Frameworks */,
 				49AF86BA28F46D7900CCC6AA /* Resources */,
@@ -169,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AF86D628F46D7900CCC6AA /* Build configuration list for PBXNativeTarget "talento-mobile-marvelUITests" */;
 			buildPhases = (
+				A7E9FABF0033E5D164482929 /* [CP] Check Pods Manifest.lock */,
 				49AF86C228F46D7900CCC6AA /* Sources */,
 				49AF86C328F46D7900CCC6AA /* Frameworks */,
 				49AF86C428F46D7900CCC6AA /* Resources */,
+				DCD649E86B51F9B180AF23AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +386,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F132F1D732ADAF3309C9308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talento-mobile-marvelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC5BBD35814EEA579629834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talento-mobile-marvel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E9FABF0033E5D164482929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talento-mobile-marvel-talento-mobile-marvelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C639540A795216275D10EA55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD649E86B51F9B180AF23AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49AF86A228F46D7600CCC6AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B4B47D28F5BE3500EF12F8 /* EventList.swift in Sources */,
+				49B9E07C28F71638002C92DC /* CharacterDataWrapper.swift in Sources */,
+				49B9E07A28F71586002C92DC /* CharacterDataContainer.swift in Sources */,
+				49B9E07828F70D8C002C92DC /* Md5.swift in Sources */,
 				49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */,
+				49B4B47728F5BC4D00EF12F8 /* SeriesSummary.swift in Sources */,
+				49B4B47328F59B3E00EF12F8 /* Image.swift in Sources */,
+				49B4B47928F5BD4200EF12F8 /* StoryList.swift in Sources */,
+				49B4B47528F5BB5700EF12F8 /* SeriesList.swift in Sources */,
+				49B4B47F28F5BEA000EF12F8 /* EventSummary.swift in Sources */,
 				49AF86AA28F46D7700CCC6AA /* AppDelegate.swift in Sources */,
 				49AF86AC28F46D7700CCC6AA /* SceneDelegate.swift in Sources */,
+				49B4B47B28F5BDD600EF12F8 /* StorySummary.swift in Sources */,
+				49B4B46D28F5869500EF12F8 /* Character.swift in Sources */,
+				49B4B46B28F5778300EF12F8 /* MarvelApiManager.swift in Sources */,
+				49B4B46F28F5936100EF12F8 /* ComicList.swift in Sources */,
+				49B9E07628F6EA38002C92DC /* MarvelCharactersViewModel.swift in Sources */,
+				49B4B47128F5980A00EF12F8 /* ComicSummary.swift in Sources */,
+				49B4B46928F5755800EF12F8 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +686,7 @@
 		};
 		49AF86D128F46D7900CCC6AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C55CE5D1DD80D9A369DF02 /* Pods-talento-mobile-marvel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +714,7 @@
 		};
 		49AF86D228F46D7900CCC6AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB1331A3EADC0EB568390E3 /* Pods-talento-mobile-marvel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +742,7 @@
 		};
 		49AF86D428F46D7900CCC6AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F86685E050C42F1DCA6070E /* Pods-talento-mobile-marvelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +762,7 @@
 		};
 		49AF86D528F46D7900CCC6AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482CE526DA66B22AD7A32014 /* Pods-talento-mobile-marvelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +782,7 @@
 		};
 		49AF86D728F46D7900CCC6AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE79C29E5F3C8034C9BC509 /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +800,7 @@
 		};
 		49AF86D828F46D7900CCC6AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36530F833037C8A5EAB3F64A /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,9 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let marvelCharactersViewModel = MarvelCharactersViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        marvelCharactersViewModel.retrieveCharacters(page: 1) {
+            
+        }
+
         // Do any additional setup after loading the view.
     }
 
