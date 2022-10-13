@@ -15,3 +15,14 @@ struct Image: Decodable{
         case ext = "extension"
     }
 }
+
+extension Image {
+    
+    var url: URL? {
+        if let path = path, let ext = ext {
+            return URL(string: "\(path).\(ext)")
+        } else {
+            return nil
+        }
+    }
+}

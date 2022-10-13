@@ -32,6 +32,7 @@
 		49B9E07828F70D8C002C92DC /* Md5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07728F70D8C002C92DC /* Md5.swift */; };
 		49B9E07A28F71586002C92DC /* CharacterDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07928F71586002C92DC /* CharacterDataContainer.swift */; };
 		49B9E07C28F71638002C92DC /* CharacterDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07B28F71638002C92DC /* CharacterDataWrapper.swift */; };
+		49B9E07E28F802ED002C92DC /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9E07D28F802ED002C92DC /* CharacterTableViewCell.swift */; };
 		DA1C91E615D97F6100E3C472 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521C4B80F0EF04999EF42AA2 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework */; };
 		F279CA10F8C2A0C84D9A7936 /* Pods_talento_mobile_marvelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF06855A11710E6FB99B58 /* Pods_talento_mobile_marvelTests.framework */; };
 		F479A7858D19F6113D078189 /* Pods_talento_mobile_marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D657221788098796134ACF /* Pods_talento_mobile_marvel.framework */; };
@@ -87,6 +88,7 @@
 		49B9E07728F70D8C002C92DC /* Md5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Md5.swift; sourceTree = "<group>"; };
 		49B9E07928F71586002C92DC /* CharacterDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataContainer.swift; sourceTree = "<group>"; };
 		49B9E07B28F71638002C92DC /* CharacterDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataWrapper.swift; sourceTree = "<group>"; };
+		49B9E07D28F802ED002C92DC /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 		521C4B80F0EF04999EF42AA2 /* Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talento_mobile_marvel_talento_mobile_marvelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D657221788098796134ACF /* Pods_talento_mobile_marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talento_mobile_marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB1331A3EADC0EB568390E3 /* Pods-talento-mobile-marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel.release.xcconfig"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		49AF86DD28F4752600CCC6AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				49B9E07D28F802ED002C92DC /* CharacterTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */,
 				49B4B47728F5BC4D00EF12F8 /* SeriesSummary.swift in Sources */,
 				49B4B47328F59B3E00EF12F8 /* Image.swift in Sources */,
+				49B9E07E28F802ED002C92DC /* CharacterTableViewCell.swift in Sources */,
 				49B4B47928F5BD4200EF12F8 /* StoryList.swift in Sources */,
 				49B4B47528F5BB5700EF12F8 /* SeriesList.swift in Sources */,
 				49B4B47F28F5BEA000EF12F8 /* EventSummary.swift in Sources */,
