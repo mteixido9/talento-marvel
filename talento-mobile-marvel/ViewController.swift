@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tableView: UITableView!
     
-    let marvelCharactersViewModel = MarvelCharactersViewModel()
+    let charactersViewModel = MarvelCharactersViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     private func startService(){
        // activityIndicator.startAnimating()
-        marvelCharactersViewModel.retrieveCharacters {
+        charactersViewModel.retrieveCharacters {
             DispatchQueue.main.async { [self] in
                 tableView.reloadData()
                 //activityIndicator.stopAnimating()
@@ -43,12 +43,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        marvelCharactersViewModel.numberOrRows()
+        charactersViewModel.numberOrRows()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let characterCell = tableView.dequeueReusableCell(withIdentifier: "CharacterCell", for: indexPath) as! CharacterTableViewCell
-        guard let charactersList = marvelCharactersViewModel.charactersList else { return characterCell }
+        guard let charactersList = charactersViewModel.charactersList else { return characterCell }
         DispatchQueue.main.async {
             characterCell.configureCharacterCell(characterName: charactersList[indexPath.row].name, characterDescription: charactersList[indexPath.row].description, imageUrl: charactersList[indexPath.row].thumbnail?.url )
         }
@@ -56,20 +56,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if let detailVc = storyboard?.instantiateViewController(withIdentifier: "BeerDetailViewController") as? BeerDetailViewController{
-//            guard let beerList = beersViewModel.beerList else { return  }
-//            detailVc.image = beerList[indexPath.row].imageUrl ?? ""
-//            detailVc.name = beerList[indexPath.row].name ?? ""
-//            detailVc.tag = beerList[indexPath.row].tagline ?? ""
-//            detailVc.descriptionText = beerList[indexPath.row].description ?? ""
-//            detailVc.abv = beerList[indexPath.row].abv ?? 0
-//            detailVc.ibu = beerList[indexPath.row].ibu ?? 0
-//            detailVc.matchingFood = beerList[indexPath.row].foodPairing?.joined(separator: ", ") ?? ""
-//            self.navigationController?.pushViewController(detailVc, animated: true)
-//        }
+        if let detailVc = storyboard?.instantiateViewController(withIdentifier: "CharacterDetailViewController") as? CharacterDetailViewController{
+            guard let charactersList = charactersViewModel.charactersList else { return }
+            detailVc.image = charactersList[indexPath.row].thumbnail?.url
+            detailVc.name = charactersList[indexPath.row].name ?? ""
+            detailVc.descriptionText = charactersList[indexPath.row].description ?? ""
+            present(detailVc, animated: true)
+        }
+        
     }
     
 
-
 }
+
 
