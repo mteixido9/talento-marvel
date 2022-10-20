@@ -10,7 +10,7 @@
 		49ABB7FA2900B588003BA1F5 /* ComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABB7F92900B588003BA1F5 /* ComicTableViewCell.swift */; };
 		49AF86AA28F46D7700CCC6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86A928F46D7700CCC6AA /* AppDelegate.swift */; };
 		49AF86AC28F46D7700CCC6AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */; };
-		49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AD28F46D7700CCC6AA /* ViewController.swift */; };
+		49AF86AE28F46D7700CCC6AA /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AD28F46D7700CCC6AA /* CharactersViewController.swift */; };
 		49AF86B128F46D7700CCC6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86AF28F46D7700CCC6AA /* Main.storyboard */; };
 		49AF86B328F46D7900CCC6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86B228F46D7900CCC6AA /* Assets.xcassets */; };
 		49AF86B628F46D7900CCC6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AF86B428F46D7900CCC6AA /* LaunchScreen.storyboard */; };
@@ -65,7 +65,7 @@
 		49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talento-mobile-marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF86A928F46D7700CCC6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49AF86AD28F46D7700CCC6AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49AF86AD28F46D7700CCC6AA /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		49AF86B028F46D7700CCC6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49AF86B228F46D7900CCC6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49AF86B528F46D7900CCC6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 			children = (
 				49B9E07D28F802ED002C92DC /* CharacterTableViewCell.swift */,
 				49ABB7F92900B588003BA1F5 /* ComicTableViewCell.swift */,
-				49AF86AD28F46D7700CCC6AA /* ViewController.swift */,
+				49AF86AD28F46D7700CCC6AA /* CharactersViewController.swift */,
 				49B9E08128F856F5002C92DC /* CharacterDetailViewController.swift */,
 			);
 			path = Views;
@@ -509,7 +509,7 @@
 				49B9E07A28F71586002C92DC /* CharacterDataContainer.swift in Sources */,
 				49B9E07828F70D8C002C92DC /* Md5.swift in Sources */,
 				49B9E08228F856F5002C92DC /* CharacterDetailViewController.swift in Sources */,
-				49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */,
+				49AF86AE28F46D7700CCC6AA /* CharactersViewController.swift in Sources */,
 				49B4B47728F5BC4D00EF12F8 /* SeriesSummary.swift in Sources */,
 				49B4B47328F59B3E00EF12F8 /* Image.swift in Sources */,
 				49B9E07E28F802ED002C92DC /* CharacterTableViewCell.swift in Sources */,
