@@ -14,7 +14,7 @@ struct ComicList: Decodable {
         self.collectionURI = collectionURI
         self.items = items
     }
-
+    
     enum CodingKeys: String, CodingKey {
         case available
         case returned

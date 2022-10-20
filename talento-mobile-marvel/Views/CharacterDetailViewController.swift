@@ -3,7 +3,7 @@ import UIKit
 import Kingfisher
 
 class CharacterDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-     
+    
     @IBOutlet weak var characterImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -37,7 +37,7 @@ class CharacterDetailViewController: UIViewController, UITableViewDelegate, UITa
         self.comicsTableView.delegate = self
         self.comicsTableView.dataSource = self
     }
- 
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         40
     }

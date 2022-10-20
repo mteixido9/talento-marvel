@@ -90,6 +90,10 @@
                                     <constraint firstItem="tKP-RR-mQg" firstAttribute="top" secondItem="4GB-SE-xtK" secondAttribute="top" id="eYD-H4-6he"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="pku-32-VWe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="color" red="0.92549019610000005" green="0.1137254902" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -97,10 +101,15 @@
                             <constraint firstItem="4GB-SE-xtK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6kz-l6-Ukp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4GB-SE-xtK" secondAttribute="trailing" id="80t-ad-L5B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4GB-SE-xtK" secondAttribute="bottom" id="91N-K9-zjr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pku-32-VWe" secondAttribute="bottom" id="9Mc-L3-SVO"/>
                             <constraint firstItem="4GB-SE-xtK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="H5p-hY-mb7"/>
+                            <constraint firstItem="pku-32-VWe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fbK-cr-zrg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pku-32-VWe" secondAttribute="trailing" id="hQQ-oQ-dgy"/>
+                            <constraint firstItem="pku-32-VWe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nbo-v7-pm5"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="pku-32-VWe" id="cPn-ab-aj7"/>
                         <outlet property="tableView" destination="tKP-RR-mQg" id="BUk-Ob-XZp"/>
                     </connections>
                 </viewController>
@@ -143,14 +152,14 @@
                                                         </constraints>
                                                         <prototypes>
                                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ComicTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ComicTableViewCell" id="xJO-fi-G8P" customClass="ComicTableViewCell" customModule="talento_mobile_marvel" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="44.5" width="398" height="43"/>
+                                                                <rect key="frame" x="0.0" y="44.5" width="398" height="43.5"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xJO-fi-G8P" id="vUR-K9-wIE">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="43"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="43.5"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySJ-UZ-qDS">
-                                                                            <rect key="frame" x="20" y="11" width="358" height="21"/>
+                                                                            <rect key="frame" x="20" y="11" width="358" height="21.5"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>

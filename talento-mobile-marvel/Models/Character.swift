@@ -30,6 +30,6 @@ struct Character: Decodable {
         case comics
         case series
         case stories
-        case events 
+        case events
     }
 }

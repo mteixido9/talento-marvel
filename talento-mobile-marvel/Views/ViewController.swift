@@ -4,10 +4,12 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var tableView: UITableView!
+
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     let charactersViewModel = MarvelCharactersViewModel()
     var isLoading = false
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         startService()
@@ -15,11 +17,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     private func startService(){
-        // activityIndicator.startAnimating()
+        activityIndicator.startAnimating()
         charactersViewModel.retrieveCharacters{
             DispatchQueue.main.async { [self] in
                 tableView.reloadData()
-                //activityIndicator.stopAnimating()
+                activityIndicator.stopAnimating()
             }
         }
     }
@@ -34,7 +36,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    
+        
         return UITableView.automaticDimension
     }
     
@@ -63,10 +65,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-
         let position = scrollView.contentOffset.y
         if position > tableView.contentSize.height-100-scrollView.frame.size.height{
-            //activityIndicator.startAnimating()
+            activityIndicator.startAnimating()
             if !isLoading {
                 isLoading = true
                 charactersViewModel.retrieveCharacters(pagination: true, page: charactersViewModel.charactersListPage, limit: charactersViewModel.limit) {
@@ -74,7 +75,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     DispatchQueue.main.async { [self] in
                         isLoading = false
                         tableView.reloadData()
-                        //activityIndicator.stopAnimating()
+                        activityIndicator.stopAnimating()
                     }
                 }
             }

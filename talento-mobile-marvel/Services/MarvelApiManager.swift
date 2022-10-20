@@ -9,7 +9,7 @@ class MarvelApiManager {
     func retrieveCharacters(page: Int?, limit: Int?, success:@escaping ((CharacterDataWrapper)-> Void), fail: @escaping (()-> Void)) {
         let hash = "\(timestamp)\(PRIVATE_KEY)\(API_KEY)".md5
         let offset = (page ?? 0) * (limit ?? 20)
-
+        
         ServiceManager.shared.callService(urlString: "https://gateway.marvel.com:443/v1/public/characters?&offset=\(offset)&limit=\(limit ?? 20)&ts=\(timestamp)&apikey=\(API_KEY)&hash=\(hash)") {response in
             success(response)
         } fail: {
@@ -17,4 +17,4 @@ class MarvelApiManager {
         }
     }
 }
-    
+

@@ -3,7 +3,7 @@ import UIKit
 import Kingfisher
 
 class CharacterTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var characterImageView: UIImageView!
     
