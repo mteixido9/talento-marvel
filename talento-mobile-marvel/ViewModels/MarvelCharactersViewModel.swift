@@ -5,16 +5,17 @@ import Foundation
 class MarvelCharactersViewModel {
     var charactersLoaded: (([Character]?, Bool) -> Void)?
     var charactersList: [Character]?
-    //var randomBeer: Beer?
-   // var beerListPage: Int = 1
+    var charactersListPage: Int = 1
+    let limit: Int = 20
     
-    func retrieveCharacters(pagination: Bool = false, page: Int? = nil, _ completionHandler:@escaping (()-> Void)) {
-        MarvelApiManager.shared.retrieveCharacters(page: page, success: { response in
+    func retrieveCharacters(pagination: Bool = false, page: Int? = nil, limit:Int? = nil, _ completionHandler:@escaping (()-> Void)) {
+        
+        MarvelApiManager.shared.retrieveCharacters(page: page, limit: limit, success: { [self] response in
+            self.charactersListPage = self.charactersListPage + response.data!.count!
             if(pagination){
                 DispatchQueue.main.async {
                     self.charactersList?.append(contentsOf: (response.data?.results)!)
                     self.handleResponse(response: response.data?.results, success: true)
-                   // self.beerListPage+=1
                     completionHandler()
                 }
                 return
@@ -24,29 +25,8 @@ class MarvelCharactersViewModel {
             completionHandler()
         }, fail: { [weak self] in
             self?.handleResponse(response: nil, success: false)
-            
         })
     }
-    
-//    func retrieveBeersBy(foodName: String, _ completionHandler:@escaping (()-> Void)){
-//        BeerApiManager.shared.getBeerFor(food: foodName) { [weak self] response in
-//            self?.beerList = response
-//            self?.handleResponse(response: response, success: true)
-//            completionHandler()
-//        } fail: { [weak self] in
-//            self?.handleResponse(response: nil, success: false)
-//        }
-//    }
-//
-//    func getRandomBeer(_ completionHandler:@escaping (()-> Void)){
-//        BeerApiManager.shared.getRandomBeer(success: { [weak self] response in
-//            self?.randomBeer = response.first
-//            self?.handleResponse(response: response, success: true)
-//            completionHandler()
-//        }, fail: { [weak self] in
-//            self?.handleResponse(response: nil, success: false)
-//        })
-//    }
     
     private func handleResponse(response: [Character]?, success: Bool) {
         if let charactersLoaded = self.charactersLoaded {
@@ -58,7 +38,7 @@ class MarvelCharactersViewModel {
         return self.charactersList?.count ?? 0
     }
     
-    func getBeer(index: Int) -> Character? {
+    func getCharacter(index: Int) -> Character? {
         return self.charactersList?[index]
     }
 }

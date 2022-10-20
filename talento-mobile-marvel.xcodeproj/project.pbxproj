@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49ABB7FA2900B588003BA1F5 /* ComicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABB7F92900B588003BA1F5 /* ComicTableViewCell.swift */; };
 		49AF86AA28F46D7700CCC6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86A928F46D7700CCC6AA /* AppDelegate.swift */; };
 		49AF86AC28F46D7700CCC6AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */; };
 		49AF86AE28F46D7700CCC6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF86AD28F46D7700CCC6AA /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 		03C55CE5D1DD80D9A369DF02 /* Pods-talento-mobile-marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel.debug.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel/Pods-talento-mobile-marvel.debug.xcconfig"; sourceTree = "<group>"; };
 		36530F833037C8A5EAB3F64A /* Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvel-talento-mobile-marvelUITests/Pods-talento-mobile-marvel-talento-mobile-marvelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		482CE526DA66B22AD7A32014 /* Pods-talento-mobile-marvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talento-mobile-marvelTests.release.xcconfig"; path = "Target Support Files/Pods-talento-mobile-marvelTests/Pods-talento-mobile-marvelTests.release.xcconfig"; sourceTree = "<group>"; };
+		49ABB7F92900B588003BA1F5 /* ComicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTableViewCell.swift; sourceTree = "<group>"; };
 		49AF86A628F46D7700CCC6AA /* talento-mobile-marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talento-mobile-marvel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AF86A928F46D7700CCC6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,12 +161,10 @@
 				49AF86D928F474E400CCC6AA /* Services */,
 				49AF86A928F46D7700CCC6AA /* AppDelegate.swift */,
 				49AF86AB28F46D7700CCC6AA /* SceneDelegate.swift */,
-				49AF86AD28F46D7700CCC6AA /* ViewController.swift */,
 				49AF86AF28F46D7700CCC6AA /* Main.storyboard */,
 				49AF86B228F46D7900CCC6AA /* Assets.xcassets */,
 				49AF86B428F46D7900CCC6AA /* LaunchScreen.storyboard */,
 				49AF86B728F46D7900CCC6AA /* Info.plist */,
-				49B9E08128F856F5002C92DC /* CharacterDetailViewController.swift */,
 			);
 			path = "talento-mobile-marvel";
 			sourceTree = "<group>";
@@ -226,6 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				49B9E07D28F802ED002C92DC /* CharacterTableViewCell.swift */,
+				49ABB7F92900B588003BA1F5 /* ComicTableViewCell.swift */,
+				49AF86AD28F46D7700CCC6AA /* ViewController.swift */,
+				49B9E08128F856F5002C92DC /* CharacterDetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B4B47D28F5BE3500EF12F8 /* EventList.swift in Sources */,
+				49ABB7FA2900B588003BA1F5 /* ComicTableViewCell.swift in Sources */,
 				49B9E07C28F71638002C92DC /* CharacterDataWrapper.swift in Sources */,
 				49B9E07A28F71586002C92DC /* CharacterDataContainer.swift in Sources */,
 				49B9E07828F70D8C002C92DC /* Md5.swift in Sources */,

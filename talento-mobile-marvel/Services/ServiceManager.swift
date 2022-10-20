@@ -13,8 +13,6 @@ class ServiceManager {
         
         URLSession.shared.dataTask(with: urlObj) { data, response, error in
             guard error == nil, let data = data else { return }
-            print(data)
-            print(response)
             do{
                 let response = try JSONDecoder().decode(T.self, from: data)
                 success(response)

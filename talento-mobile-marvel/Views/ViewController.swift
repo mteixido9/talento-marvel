@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  talento-mobile-marvel
-//
-//  Created by Marc  Teixidó Carrera on 10/10/22.
-//
 
 import UIKit
 
@@ -12,7 +6,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     
     let charactersViewModel = MarvelCharactersViewModel()
-    
+    var isLoading = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
         startService()
@@ -20,8 +15,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     private func startService(){
-       // activityIndicator.startAnimating()
-        charactersViewModel.retrieveCharacters {
+        // activityIndicator.startAnimating()
+        charactersViewModel.retrieveCharacters{
             DispatchQueue.main.async { [self] in
                 tableView.reloadData()
                 //activityIndicator.stopAnimating()
@@ -35,11 +30,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        1
+        return 1
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        UITableView.automaticDimension
+    
+        return UITableView.automaticDimension
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,13 +56,31 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             guard let charactersList = charactersViewModel.charactersList else { return }
             detailVc.image = charactersList[indexPath.row].thumbnail?.url
             detailVc.name = charactersList[indexPath.row].name ?? ""
+            detailVc.comicsList = charactersList[indexPath.row].comics?.items
             detailVc.descriptionText = charactersList[indexPath.row].description ?? ""
             present(detailVc, animated: true)
         }
-        
     }
     
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
 
+        let position = scrollView.contentOffset.y
+        if position > tableView.contentSize.height-100-scrollView.frame.size.height{
+            //activityIndicator.startAnimating()
+            if !isLoading {
+                isLoading = true
+                charactersViewModel.retrieveCharacters(pagination: true, page: charactersViewModel.charactersListPage, limit: charactersViewModel.limit) {
+                    
+                    DispatchQueue.main.async { [self] in
+                        isLoading = false
+                        tableView.reloadData()
+                        //activityIndicator.stopAnimating()
+                    }
+                }
+            }
+            
+        }
+    }
 }
 
 
